@@ -1,3 +1,5 @@
+# this file as all the code together other fies are not the part of this file 
+
 import streamlit as st
 from PIL import Image
 import pytesseract
@@ -6,7 +8,7 @@ import json
 import re
 
 # Configure generative AI with the API key
-genai.configure(api_key="AIzaSyDNYXszsC3b5eLqdS3p8PeHZ2Ug0H4cKI4")
+genai.configure(api_key="Please add key here")
 
 
 # Function to process text using generative AI
