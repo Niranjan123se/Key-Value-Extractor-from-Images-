@@ -4,7 +4,7 @@ import streamlit as st
 import re
 
 # Configure generative AI with the API key
-genai.configure(api_key="AIzaSyDNYXszsC3b5eLqdS3p8PeHZ2Ug0H4cKI4")
+genai.configure(api_key="Please add your key")
 
 def process_text_to_json(text: str, keys: list) -> dict:
     """
